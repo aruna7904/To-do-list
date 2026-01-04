@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weekend To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Weekend To-Do List</h1>
+        <div class="sub">Organize tasks, mark done, and keep track — saved locally</div>
+      </div>
+      <div class="controls">
+        <input id="q" class="search" type="search" placeholder="Search tasks..." aria-label="Search">
+        <button id="addQuick">+ Add</button>
+      </div>
+    </header>
+
+    <section class="card">
+      <ul id="taskList" class="tasks"></ul>
+    </section>
+
+    <section class="card add-panel">
+      <h2>Add New Task</h2>
+      <div class="field">
+        <label for="taskTitle">Title</label>
+        <input type="text" id="taskTitle" placeholder="Enter task title" />
+      </div>
+      <div class="field">
+        <label for="taskDesc">Description</label>
+        <textarea id="taskDesc" placeholder="Optional description..."></textarea>
+      </div>
+      <button id="addTask">Add Task</button>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
