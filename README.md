@@ -48,13 +48,13 @@ Weekend-ToDo-List/
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/weekend-todo-list.git
+   git clone https://github.com/your-username/To-do-list.git
    ```
 
 2. Navigate to the project folder
 
    ```bash
-   cd weekend-todo-list
+   cd weekend-To-do-list
    ```
 
 3. Open `index.html` in your browser
